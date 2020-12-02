@@ -1,7 +1,7 @@
-package com.heyou.springcloud.learning;
+package com.heyou.springcloud.provider;
 
-import com.heyou.springcloud.learning.dao.UserRepository;
-import com.heyou.springcloud.learning.entity.User;
+import com.heyou.springcloud.provider.dao.UserRepository;
+import com.heyou.springcloud.provider.entity.User;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

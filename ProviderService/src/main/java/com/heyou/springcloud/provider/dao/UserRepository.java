@@ -1,6 +1,6 @@
-package com.heyou.springcloud.learning.dao;
+package com.heyou.springcloud.provider.dao;
 
-import com.heyou.springcloud.learning.entity.User;
+import com.heyou.springcloud.provider.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

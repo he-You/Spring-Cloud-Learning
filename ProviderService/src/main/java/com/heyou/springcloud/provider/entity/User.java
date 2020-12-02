@@ -1,4 +1,4 @@
-package com.heyou.springcloud.learning.entity;
+package com.heyou.springcloud.provider.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

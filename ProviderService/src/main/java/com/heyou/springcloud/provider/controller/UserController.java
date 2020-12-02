@@ -1,7 +1,7 @@
-package com.heyou.springcloud.learning.controller;
+package com.heyou.springcloud.provider.controller;
 
-import com.heyou.springcloud.learning.dao.UserRepository;
-import com.heyou.springcloud.learning.entity.User;
+import com.heyou.springcloud.provider.dao.UserRepository;
+import com.heyou.springcloud.provider.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
