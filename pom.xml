@@ -6,6 +6,7 @@
     <modules>
         <module>ConsumerService</module>
         <module>ProviderService</module>
+        <module>EurekaService</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -31,11 +32,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <!-- 注册中心-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <!-- 引入H2数据库，一种内嵌的数据库，语法类似MySQL -->
         <dependency>
