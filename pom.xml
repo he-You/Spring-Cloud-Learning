@@ -7,6 +7,7 @@
         <module>ConsumerService</module>
         <module>ProviderService</module>
         <module>EurekaService</module>
+        <module>microservice-consumer-movie-ribbon</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

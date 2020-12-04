@@ -6,7 +6,7 @@ server:
   port: 8011
 spring:
   application:
-    name: service-provider    #调用服务的时候是根据服务名来调用的
+    name: microservice-provider-user    #调用服务的时候是根据服务名来调用的
   jpa:
     # 让hibernate打印执行的SQL
     show-sql: true
