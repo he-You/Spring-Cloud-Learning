@@ -4,9 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConsumerService/ConsumerService.iml" filepath="$PROJECT_DIR$/ConsumerService/ConsumerService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProviderService/ProviderService.iml" filepath="$PROJECT_DIR$/ProviderService/ProviderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearning.iml" filepath="$PROJECT_DIR$/SpringCloudLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" filepath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" filepath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" />
     </modules>
   </component>
 </project>

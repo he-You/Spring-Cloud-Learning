@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-a/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/ProviderA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-b/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsumerService/ConsumerService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/ConsumerService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsumerService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsumerService/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsumerService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ProviderService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/heyou/springcloud/consumer/ribbon/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/heyou/springcloud/consumer/ribbon/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/ProviderService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/Provider2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProviderService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-provider-a/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,14 +89,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-provider-a/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice-provider-a/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/heyou/springcloud/consumer/ribbon" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ConsumerService/src/main/java" />
-      <recent name="$PROJECT_DIR$/ConsumerService/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderA">
     <configuration name="ConsumerServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-consumer-movie-ribbon" />
       <extension name="coverage">
@@ -96,19 +106,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ribbon.ConsumerServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ConsumerService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heyou.springcloud.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,25 +123,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ProviderService" />
+    <configuration name="Provider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-a" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.heyou.springcloud.provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.provider.ProviderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.provider.Provider1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heyou.springcloud.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.provider.Provider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderA" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heyou.springcloud.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.provider.ProviderA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.ConsumerServerApplication (1)" />
+        <item itemvalue="Spring Boot.ProviderA" />
+        <item itemvalue="Spring Boot.Provider2Application" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ConsumerServerApplication" />
+        <item itemvalue="Spring Boot.Provider1Application" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +184,7 @@
       <updated>1606304646205</updated>
       <workItem from="1606304649006" duration="3330000" />
       <workItem from="1606400982297" duration="1660000" />
-      <workItem from="1606749046381" duration="8086000" />
+      <workItem from="1606749046381" duration="10421000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -302,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607093206030</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update:修改服务名称">
+      <created>1607094096381</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607094096381</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +358,8 @@
     <MESSAGE value="add:消费者服务实体定义" />
     <MESSAGE value="add：配置文件修改，依赖更新" />
     <MESSAGE value="add：新增 ribbon 负载均衡客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="add：新增 ribbon 负载均衡客户端" />
+    <MESSAGE value="update:修改服务名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:修改服务名称" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#Project_Structure" timestamp="1607092322009">
@@ -338,10 +370,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606919705180" />
-    <state x="432" y="158" key="CommitChangelistDialog2" timestamp="1607093205901">
+    <state x="364" y="158" key="CommitChangelistDialog2" timestamp="1607178493312">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="432" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607093205901" />
+    <state x="364" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607178493312" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -350,89 +382,78 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="606" y="269" key="Github.UntrackedFilesDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1606749844808" />
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1607093990435">
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1607178442919">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990435" />
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1607093990434">
+    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1607178442918">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990434" />
+    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442918" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919535" />
-    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1607093990433">
+    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1607178442917">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990433" />
+    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442917" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919535" />
-    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1607093990435">
+    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1607178442918">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990435" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442918" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.23.1792.1046" timestamp="1607007596585" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1607093990437">
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1607178442920">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990437" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
     <state width="1750" height="318" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919539" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1607093990436">
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1607178442919">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990436" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
     <state width="1750" height="318" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919537" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1607093990436">
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1607178442919">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990436" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
     <state width="1750" height="318" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1607093990437">
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1607178442920">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990437" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
     <state width="1750" height="318" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919537" />
-    <state width="1750" height="391" key="GridCell.Tab.2.bottom" timestamp="1607093990439">
+    <state width="1750" height="391" key="GridCell.Tab.2.bottom" timestamp="1607178442922">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990439" />
+    <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442922" />
     <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state width="1750" height="391" key="GridCell.Tab.2.center" timestamp="1607093990438">
+    <state width="1750" height="391" key="GridCell.Tab.2.center" timestamp="1607178442921">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990438" />
+    <state width="1750" height="391" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
     <state width="1750" height="391" key="GridCell.Tab.2.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456248" />
-    <state width="1750" height="391" key="GridCell.Tab.2.left" timestamp="1607093990438">
+    <state width="1750" height="391" key="GridCell.Tab.2.left" timestamp="1607178442920">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990438" />
+    <state width="1750" height="391" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
     <state width="1750" height="391" key="GridCell.Tab.2.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456248" />
-    <state width="1750" height="391" key="GridCell.Tab.2.right" timestamp="1607093990439">
+    <state width="1750" height="391" key="GridCell.Tab.2.right" timestamp="1607178442921">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607093990439" />
+    <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607007978673">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607094100705">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607007978673" />
-    <state x="273" y="264" key="new project wizard" timestamp="1607091958995">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607094100705" />
+    <state x="273" y="264" key="new project wizard" timestamp="1607177172884">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607091958995" />
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607177172884" />
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1607007982438">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1607007982438" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/heyou/springcloud/consumer/ribbon/controller/MovieController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

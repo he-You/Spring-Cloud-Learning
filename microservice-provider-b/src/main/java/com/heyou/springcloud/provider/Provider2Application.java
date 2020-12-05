@@ -14,10 +14,10 @@ import java.util.stream.Stream;
  * @author heyou
  */
 @SpringBootApplication
-public class ProviderApplication {
+public class Provider2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(Provider2Application.class, args);
     }
 
     /**
