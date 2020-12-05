@@ -22,6 +22,7 @@ public class UserController {
 
     @GetMapping("/{id}")
     public Optional<User> findById(@PathVariable Long id) {
+        System.out.println("这是生产者服务-a");
         return this.userRepository.findById(id);
     }
 }
