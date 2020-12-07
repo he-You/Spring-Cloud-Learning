@@ -2,26 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/ProviderA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-b/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java/com/heyou/springcloud/consumer/configuration/RibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java/com/heyou/springcloud/consumer/configuration/RibbonConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/ProviderService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/java/com/heyou/springcloud/provider/Provider2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/dao/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/java/com/heyou/springcloud/provider/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/java/com/heyou/springcloud/provider/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProviderService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerService/ConsumerService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/ConsumerService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaService/EurekaService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaService/EurekaService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,20 +80,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-provider-a/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-provider-a/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-provider-a/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/heyou/springcloud/consumer/ribbon" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProviderA">
@@ -106,6 +107,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ribbon.ConsumerServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConsumerService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,7 +192,8 @@
       <updated>1606304646205</updated>
       <workItem from="1606304649006" duration="3330000" />
       <workItem from="1606400982297" duration="1660000" />
-      <workItem from="1606749046381" duration="10421000" />
+      <workItem from="1606749046381" duration="10994000" />
+      <workItem from="1607350476588" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -333,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607094096381</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update:新增生产者服务">
+      <created>1607178493610</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607178493610</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update:修改生产者服务实例名称和相关配置">
+      <created>1607178527304</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607178527304</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +382,9 @@
     <MESSAGE value="add：配置文件修改，依赖更新" />
     <MESSAGE value="add：新增 ribbon 负载均衡客户端" />
     <MESSAGE value="update:修改服务名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:修改服务名称" />
+    <MESSAGE value="update:新增生产者服务" />
+    <MESSAGE value="update:修改生产者服务实例名称和相关配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:修改生产者服务实例名称和相关配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#Project_Structure" timestamp="1607092322009">
@@ -370,10 +395,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606919705180" />
-    <state x="364" y="158" key="CommitChangelistDialog2" timestamp="1607178493312">
+    <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607351609312">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="364" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607178493312" />
+    <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607351609312" />
+    <state x="364" y="158" key="CommitChangelistDialog2" timestamp="1607178527130">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="364" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607178527130" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -443,14 +472,14 @@
     </state>
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607094100705">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607181105006">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607094100705" />
-    <state x="273" y="264" key="new project wizard" timestamp="1607177172884">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607181105006" />
+    <state x="273" y="264" key="new project wizard" timestamp="1607351380771">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607177172884" />
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607351380771" />
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1607007982438">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

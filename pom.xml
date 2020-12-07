@@ -9,6 +9,7 @@
         <module>EurekaService</module>
         <module>microservice-consumer-movie-ribbon</module>
         <module>microservice-provider-a</module>
+        <module>microservice-consumer-movie-feign-config-java</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

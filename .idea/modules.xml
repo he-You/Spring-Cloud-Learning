@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearning.iml" filepath="$PROJECT_DIR$/SpringCloudLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" filepath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" filepath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" />
     </modules>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ConsumerService</artifactId>
+    <artifactId>microservice-consumer-movie-feign-config-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>provider-server</name>
     <description>Demo project for Spring Cloud</description>
