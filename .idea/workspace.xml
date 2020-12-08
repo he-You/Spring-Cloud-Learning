@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="add:Ribbon的配置文件配置与Eager加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ConsumerService" />
+      <module name="microservice-consumer-movie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,7 +173,7 @@
       <workItem from="1606304649006" duration="3330000" />
       <workItem from="1606400982297" duration="1660000" />
       <workItem from="1606749046381" duration="10994000" />
-      <workItem from="1607350476588" duration="2128000" />
+      <workItem from="1607350476588" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -356,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607352081139</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add:Ribbon的配置文件配置与Eager加载">
+      <created>1607439254582</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607439254582</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add:Ribbon的配置文件配置与Eager加载">
+      <created>1607439280280</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607439280280</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +386,8 @@
     <MESSAGE value="update:新增生产者服务" />
     <MESSAGE value="update:修改生产者服务实例名称和相关配置" />
     <MESSAGE value="add:Ribbon 策略Java配置与实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:Ribbon 策略Java配置与实现" />
+    <MESSAGE value="add:Ribbon的配置文件配置与Eager加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:Ribbon的配置文件配置与Eager加载" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#Project_Structure" timestamp="1607092322009">
@@ -400,10 +402,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607351609312" />
-    <state x="343" y="158" key="CommitChangelistDialog2" timestamp="1607352080912">
+    <state x="261" y="158" key="CommitChangelistDialog2" timestamp="1607439280091">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="343" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607352080912" />
+    <state x="261" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607439280091" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -473,10 +475,10 @@
     </state>
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607352085752">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607439284204">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607352085752" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607439284204" />
     <state x="273" y="264" key="new project wizard" timestamp="1607437716543">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-provider-a" />
         <module name="microservice-consumer-movie-ribbon-config-java" />
-        <module name="ConsumerService" />
         <module name="EurekaService" />
+        <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign-config-java" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-config-properties" />
@@ -17,8 +17,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ConsumerService" target="1.8" />
       <module name="EurekaService" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign-config-java" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-config-java" target="1.8" />
@@ -30,9 +30,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ConsumerService" options="-parameters" />
       <module name="EurekaService" options="-parameters" />
       <module name="SpringCloudLearning" options="-parameters" />
+      <module name="microservice-consumer-movie" options="-parameters" />
       <module name="microservice-consumer-movie-feign-config-java" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon-config-java" options="-parameters" />
