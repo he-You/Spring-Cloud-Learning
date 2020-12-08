@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-b/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/pom.xml" />
       </list>
     </option>
   </component>

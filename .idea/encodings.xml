@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/ConsumerService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-a/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-b/src/main/java" charset="UTF-8" />
