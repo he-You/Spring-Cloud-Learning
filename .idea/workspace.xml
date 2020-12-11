@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="add:Ribbon的配置文件配置与Eager加载">
+    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,14 +96,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java" />
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/java" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/src/main/java" />
-      <recent name="$PROJECT_DIR$/microservice-provider-a/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderA">
+  <component name="RunManager" selected="Spring Boot.ConsumerServerApplication (2)">
     <configuration name="ConsumerServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-consumer-movie-ribbon" />
       <extension name="coverage">
@@ -87,6 +113,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ribbon.ConsumerServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-consumer-movie-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heyou.springcloud.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,19 +146,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.eureka.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Provider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-provider-a" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heyou.springcloud.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.provider.Provider1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerServerApplication (1)" />
-        <item itemvalue="Spring Boot.ProviderA" />
+        <item itemvalue="Spring Boot.ConsumerServerApplication (2)" />
         <item itemvalue="Spring Boot.Provider2Application" />
+        <item itemvalue="Spring Boot.ProviderA" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.Provider1Application" />
+        <item itemvalue="Spring Boot.ConsumerServerApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +199,8 @@
       <workItem from="1606304649006" duration="3330000" />
       <workItem from="1606400982297" duration="1660000" />
       <workItem from="1606749046381" duration="10994000" />
-      <workItem from="1607350476588" duration="2810000" />
+      <workItem from="1607350476588" duration="3517000" />
+      <workItem from="1607607485504" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -357,7 +384,49 @@
       <option name="project" value="LOCAL" />
       <updated>1607439280280</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update:ArtifactId">
+      <created>1607441061316</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607441061316</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update:开启 feign">
+      <created>1607610352281</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610352281</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add:新增 Feign Client">
+      <created>1607610398627</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610398627</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add:用 Feign Client替代 restTemple 请求服务">
+      <created>1607610427265</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610427265</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add:用 Feign Client替代 restTemple 请求服务">
+      <created>1607610761861</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610761861</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add:Feign 学习">
+      <created>1607610783584</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610783584</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,8 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add:控制器实现" />
-    <MESSAGE value="add:实体定义" />
     <MESSAGE value="add:数据初始化" />
     <MESSAGE value="add:dao 层定义" />
     <MESSAGE value="add:项目配置" />
@@ -387,13 +454,18 @@
     <MESSAGE value="update:修改生产者服务实例名称和相关配置" />
     <MESSAGE value="add:Ribbon 策略Java配置与实现" />
     <MESSAGE value="add:Ribbon的配置文件配置与Eager加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:Ribbon的配置文件配置与Eager加载" />
+    <MESSAGE value="update:ArtifactId" />
+    <MESSAGE value="update:开启 feign" />
+    <MESSAGE value="add:新增 Feign Client" />
+    <MESSAGE value="add:用 Feign Client替代 restTemple 请求服务" />
+    <MESSAGE value="add:Feign 学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:Feign 学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="225" key="#Project_Structure" timestamp="1607092322009">
+    <state x="496" y="225" key="#Project_Structure" timestamp="1607700606351">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="225" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1607092322009" />
+    <state x="496" y="225" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1607700606351" />
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606919705180">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -402,10 +474,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607351609312" />
-    <state x="261" y="158" key="CommitChangelistDialog2" timestamp="1607439280091">
+    <state x="261" y="158" key="CommitChangelistDialog2" timestamp="1607610783395">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="261" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607439280091" />
+    <state x="261" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607610783395" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -414,75 +486,75 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="606" y="269" key="Github.UntrackedFilesDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1606749844808" />
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1607178442919">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1607610736091">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736091" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1607178442918">
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1607610736089">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442918" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736089" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919535" />
-    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1607178442917">
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1607610736088">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442917" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736088" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919535" />
-    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1607178442918">
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1607610736090">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442918" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736090" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.23.1792.1046" timestamp="1607007596585" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1607178442920">
+    <state width="1750" height="318" key="GridCell.Tab.1.bottom" timestamp="1607610736093">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
-    <state width="1750" height="318" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919539" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1607178442919">
+    <state width="1750" height="318" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736093" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607610670075" />
+    <state width="1750" height="318" key="GridCell.Tab.1.center" timestamp="1607610736092">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
-    <state width="1750" height="318" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919537" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1607178442919">
+    <state width="1750" height="318" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736092" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607610670074" />
+    <state width="1750" height="318" key="GridCell.Tab.1.left" timestamp="1607610736092">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442919" />
-    <state width="1750" height="318" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919536" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1607178442920">
+    <state width="1750" height="318" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736092" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607610670073" />
+    <state width="1750" height="318" key="GridCell.Tab.1.right" timestamp="1607610736093">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
-    <state width="1750" height="318" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093919537" />
-    <state width="1750" height="391" key="GridCell.Tab.2.bottom" timestamp="1607178442922">
+    <state width="1750" height="318" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607610736093" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607610670074" />
+    <state width="1750" height="391" key="GridCell.Tab.2.bottom" timestamp="1607610730810">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442922" />
+    <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607610730810" />
     <state width="1750" height="391" key="GridCell.Tab.2.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state width="1750" height="391" key="GridCell.Tab.2.center" timestamp="1607178442921">
+    <state width="1750" height="391" key="GridCell.Tab.2.center" timestamp="1607610730809">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
+    <state width="1750" height="391" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607610730809" />
     <state width="1750" height="391" key="GridCell.Tab.2.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456248" />
-    <state width="1750" height="391" key="GridCell.Tab.2.left" timestamp="1607178442920">
+    <state width="1750" height="391" key="GridCell.Tab.2.left" timestamp="1607610730808">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442920" />
+    <state width="1750" height="391" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607610730808" />
     <state width="1750" height="391" key="GridCell.Tab.2.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456248" />
-    <state width="1750" height="391" key="GridCell.Tab.2.right" timestamp="1607178442921">
+    <state width="1750" height="391" key="GridCell.Tab.2.right" timestamp="1607610730809">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178442921" />
+    <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607610730809" />
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607439284204">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607610788706">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607439284204" />
-    <state x="273" y="264" key="new project wizard" timestamp="1607437716543">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607610788706" />
+    <state x="273" y="264" key="new project wizard" timestamp="1607700570202">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607437716543" />
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607700570202" />
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1607007982438">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

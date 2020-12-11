@@ -2,27 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-provider-a" />
+        <module name="microservice-provider-b" />
         <module name="microservice-consumer-movie-ribbon-config-java" />
+        <module name="microservice-consumer-movie-ribbon-hystrix-common" />
         <module name="EurekaService" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign-config-java" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-config-properties" />
-        <module name="microservice-provider-b" />
+        <module name="microservice-consumer-movie-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EurekaService" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-feign-config-java" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-config-java" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-config-properties" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix-common" target="1.8" />
       <module name="microservice-provider-a" target="1.8" />
       <module name="microservice-provider-b" target="1.8" />
       <module name="SpringCloudLearning" target="1.8" />
@@ -33,10 +38,12 @@
       <module name="EurekaService" options="-parameters" />
       <module name="SpringCloudLearning" options="-parameters" />
       <module name="microservice-consumer-movie" options="-parameters" />
+      <module name="microservice-consumer-movie-feign" options="-parameters" />
       <module name="microservice-consumer-movie-feign-config-java" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon-config-java" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon-config-properties" options="-parameters" />
+      <module name="microservice-consumer-movie-ribbon-hystrix-common" options="-parameters" />
       <module name="microservice-provider-a" options="-parameters" />
       <module name="microservice-provider-b" options="-parameters" />
     </option>

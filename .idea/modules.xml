@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearning.iml" filepath="$PROJECT_DIR$/SpringCloudLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-feign-config-java.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-feign-config-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" filepath="$PROJECT_DIR$/microservice-provider-a/microservice-provider-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" filepath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" />
     </modules>
