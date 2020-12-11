@@ -2,6 +2,7 @@ package com.heyou.springcloud.consumer.controller;
 
 import com.heyou.springcloud.consumer.entity.User;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,12 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.math.BigDecimal;
+
 /**
  * @author heyou(heyou_0423 @ 163.com)
  * @date 2020/12/3 22:54
  */
 @RequestMapping("/movies")
 @RestController
+@Slf4j
 public class MovieController {
     @Autowired
     private RestTemplate restTemplate;
@@ -37,5 +41,10 @@ public class MovieController {
         );
         // ...电影微服务的业务...
         return user;
+    }
+
+    public User findByIdFallback(Long id, Throwable throwable) {
+        log.error("进入回退方法", throwable);
+        return new User(id, "默认用户", "默认用户", 0, new BigDecimal(1));
     }
 }
