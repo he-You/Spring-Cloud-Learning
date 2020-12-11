@@ -2,6 +2,7 @@ package com.heyou.springcloud.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
@@ -10,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
  * @date 2020/12/2 23:16
  */
 @SpringBootApplication
+@EnableCircuitBreaker
 public class ConsumerServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerServerApplication.class, args);
