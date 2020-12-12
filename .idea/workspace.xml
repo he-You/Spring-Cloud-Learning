@@ -2,32 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/heyou/springcloud/consumer/feign/UserFeignClientForHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/heyou/springcloud/consumer/feign/UserFeignClientForHystrixFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-java/microservice-consumer-movie-ribbon-config-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/microservice-consumer-movie-ribbon-config-properties.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-b/microservice-provider-b.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -96,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-config-properties/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerServerApplication (2)">
@@ -200,7 +197,7 @@
       <workItem from="1606400982297" duration="1660000" />
       <workItem from="1606749046381" duration="10994000" />
       <workItem from="1607350476588" duration="3517000" />
-      <workItem from="1607607485504" duration="1958000" />
+      <workItem from="1607607485504" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -426,7 +423,35 @@
       <option name="project" value="LOCAL" />
       <updated>1607610783584</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add:Hystrix学习">
+      <created>1607701010734</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607701010734</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add:开启Hystrix支持">
+      <created>1607702150770</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607702150770</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add:给接口添加Hystrix保护">
+      <created>1607702180342</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607702180342</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add:获取造成fallback原因的方法">
+      <created>1607702301037</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607702301037</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,10 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add:数据初始化" />
-    <MESSAGE value="add:dao 层定义" />
-    <MESSAGE value="add:项目配置" />
-    <MESSAGE value="add:监控组件依赖" />
     <MESSAGE value="add:项目结构优化" />
     <MESSAGE value="add:消费者服务" />
     <MESSAGE value="add:注册中心服务" />
@@ -459,25 +480,41 @@
     <MESSAGE value="add:新增 Feign Client" />
     <MESSAGE value="add:用 Feign Client替代 restTemple 请求服务" />
     <MESSAGE value="add:Feign 学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:Feign 学习" />
+    <MESSAGE value="add:Hystrix学习" />
+    <MESSAGE value="add:开启Hystrix支持" />
+    <MESSAGE value="add:给接口添加Hystrix保护" />
+    <MESSAGE value="add:获取造成fallback原因的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:获取造成fallback原因的方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="225" key="#Project_Structure" timestamp="1607700606351">
+    <state x="496" y="225" key="#Project_Structure" timestamp="1607784045498">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="225" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1607700606351" />
+    <state x="496" y="225" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1607784045498" />
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606919705180">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606919705180" />
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1607783809356">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1607783809356" />
     <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607351609312">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="166" y="492" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607351609312" />
-    <state x="261" y="158" key="CommitChangelistDialog2" timestamp="1607610783395">
+    <state x="533" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607784155171">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="261" y="158" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607610783395" />
+    <state x="533" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607784155171" />
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607783996474">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607783996474" />
+    <state x="198" y="124" key="CommitChangelistDialog2" timestamp="1607784567312">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="198" y="124" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607784567312" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -547,14 +584,18 @@
     </state>
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607610730809" />
     <state width="1750" height="391" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607093456249" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607610788706">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607702304739">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607610788706" />
-    <state x="273" y="264" key="new project wizard" timestamp="1607700570202">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607702304739" />
+    <state x="477" y="285" width="926" height="550" key="find.popup" timestamp="1607784316156">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607700570202" />
+    <state x="477" y="285" width="926" height="550" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1607784316156" />
+    <state x="273" y="264" key="new project wizard" timestamp="1607783337836">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607783337836" />
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1607007982438">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
