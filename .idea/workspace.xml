@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="add:Feign使用Hystrix">
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java/com/heyou/springcloud/consumer/ConsumerServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java/com/heyou/springcloud/consumer/feign/UserFeignClientForHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java/com/heyou/springcloud/consumer/feign/UserFeignClientForHystrixFallback.java" afterDir="false" />
+    <list default="true" id="b09b0558-e20e-4227-b4ec-70e2e90a24e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/microservice-consumer-movie-feign-hystrix-stream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/heyou/springcloud/consumer/HystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/heyou/springcloud/consumer/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/heyou/springcloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/microservice-consumer-movie-ribbon-hystrix-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,28 +88,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java" />
+      <recent name="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/java" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-stream/src/main/resources" />
       <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java" />
-      <recent name="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-common/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Provider2Application">
-    <configuration name="ConsumerServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-consumer-movie-feign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heyou.springcloud.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.ConsumerServerApplication (3)">
+    <configuration name="ConsumerServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ribbon.ConsumerServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerServerApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-consumer-movie-feign-hystrix-stream" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +118,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="microservice-consumer-movie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.ConsumerServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,6 +132,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heyou.springcloud.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heyou.springcloud.consumer.HystrixDashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerServerApplication (3)" />
+        <item itemvalue="Spring Boot.HystrixDashboardApplication" />
         <item itemvalue="Spring Boot.Provider2Application" />
         <item itemvalue="Spring Boot.ProviderA" />
-        <item itemvalue="Spring Boot.ConsumerServerApplication (3)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ConsumerServerApplication (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,11 @@
       <workItem from="1606749046381" duration="10994000" />
       <workItem from="1607350476588" duration="3517000" />
       <workItem from="1607607485504" duration="4230000" />
-      <workItem from="1607956404506" duration="1148000" />
+      <workItem from="1607956404506" duration="2002000" />
+      <workItem from="1608039543983" duration="284000" />
+      <workItem from="1608039962616" duration="16000" />
+      <workItem from="1608040104778" duration="74000" />
+      <workItem from="1608044698091" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="add:控制器实现">
       <created>1606908068582</created>
@@ -493,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607957191937</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add:开启Hystrix监控">
+      <created>1607957951863</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607957951863</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add:使用Hystrix监控端点">
+      <created>1607957972759</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607957972759</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,8 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add:消费者服务端口修改" />
-    <MESSAGE value="add:消费者服务实体定义" />
     <MESSAGE value="add：配置文件修改，依赖更新" />
     <MESSAGE value="add：新增 ribbon 负载均衡客户端" />
     <MESSAGE value="update:修改服务名称" />
@@ -526,7 +552,9 @@
     <MESSAGE value="add:Feign使用Hystrix" />
     <MESSAGE value="add:使用Hystrix监控端点依赖" />
     <MESSAGE value="add:Hystrix监控配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:Hystrix监控配置" />
+    <MESSAGE value="add:开启Hystrix监控" />
+    <MESSAGE value="add:使用Hystrix监控端点" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:使用Hystrix监控端点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#Project_Structure" timestamp="1607784045498">
@@ -537,6 +565,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606919705180" />
+    <state x="637" y="403" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1608040145036">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="637" y="403" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608040145036" />
     <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1607783809356">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -553,10 +585,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607783996474" />
-    <state x="198" y="124" key="CommitChangelistDialog2" timestamp="1607957951667">
+    <state x="198" y="124" key="CommitChangelistDialog2" timestamp="1608046028217">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="198" y="124" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1607957951667" />
+    <state x="198" y="124" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1608046028217" />
     <state x="728" y="460" key="Github.ShareDialog" timestamp="1606749826044">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -565,83 +597,83 @@
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="606" y="269" key="Github.UntrackedFilesDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1606749844808" />
-    <state width="1750" height="758" key="GridCell.Tab.0.bottom" timestamp="1607957926422">
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom" timestamp="1608045802400">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926422" />
-    <state width="1750" height="230" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867099" />
-    <state width="1750" height="758" key="GridCell.Tab.0.center" timestamp="1607957926422">
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802400" />
+    <state width="1750" height="758" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697690" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center" timestamp="1608045802398">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926422" />
-    <state width="1750" height="230" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867098" />
-    <state width="1750" height="758" key="GridCell.Tab.0.left" timestamp="1607957926421">
+    <state width="1750" height="317" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802398" />
+    <state width="1750" height="758" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697690" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left" timestamp="1608045802397">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926421" />
-    <state width="1750" height="230" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867097" />
-    <state width="1750" height="758" key="GridCell.Tab.0.right" timestamp="1607957926422">
+    <state width="1750" height="317" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802397" />
+    <state width="1750" height="758" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697689" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right" timestamp="1608045802399">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926422" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802399" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.23.1792.1046" timestamp="1607007596585" />
-    <state width="1750" height="230" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867098" />
-    <state width="1750" height="758" key="GridCell.Tab.1.bottom" timestamp="1607957926424">
+    <state width="1750" height="758" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697690" />
+    <state width="1750" height="317" key="GridCell.Tab.1.bottom" timestamp="1608045802209">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926424" />
-    <state width="1750" height="230" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867100" />
-    <state width="1750" height="758" key="GridCell.Tab.1.center" timestamp="1607957926423">
+    <state width="1750" height="317" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802209" />
+    <state width="1750" height="758" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697692" />
+    <state width="1750" height="317" key="GridCell.Tab.1.center" timestamp="1608045802208">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926423" />
-    <state width="1750" height="230" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867100" />
-    <state width="1750" height="758" key="GridCell.Tab.1.left" timestamp="1607957926423">
+    <state width="1750" height="317" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802208" />
+    <state width="1750" height="758" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697691" />
+    <state width="1750" height="317" key="GridCell.Tab.1.left" timestamp="1608045802208">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926423" />
-    <state width="1750" height="230" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867099" />
-    <state width="1750" height="758" key="GridCell.Tab.1.right" timestamp="1607957926424">
+    <state width="1750" height="317" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802208" />
+    <state width="1750" height="758" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697691" />
+    <state width="1750" height="317" key="GridCell.Tab.1.right" timestamp="1608045802209">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926424" />
-    <state width="1750" height="230" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867100" />
-    <state width="1750" height="758" key="GridCell.Tab.2.bottom" timestamp="1607957926426">
+    <state width="1750" height="317" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802209" />
+    <state width="1750" height="758" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697692" />
+    <state width="1750" height="317" key="GridCell.Tab.2.bottom" timestamp="1608045802210">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926426" />
-    <state width="1750" height="230" key="GridCell.Tab.2.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867103" />
-    <state width="1750" height="758" key="GridCell.Tab.2.center" timestamp="1607957926425">
+    <state width="1750" height="317" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802210" />
+    <state width="1750" height="758" key="GridCell.Tab.2.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697694" />
+    <state width="1750" height="317" key="GridCell.Tab.2.center" timestamp="1608045802210">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926425" />
-    <state width="1750" height="230" key="GridCell.Tab.2.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867101" />
-    <state width="1750" height="758" key="GridCell.Tab.2.left" timestamp="1607957926425">
+    <state width="1750" height="317" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802210" />
+    <state width="1750" height="758" key="GridCell.Tab.2.center/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697693" />
+    <state width="1750" height="317" key="GridCell.Tab.2.left" timestamp="1608045802209">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926425" />
-    <state width="1750" height="230" key="GridCell.Tab.2.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867101" />
-    <state width="1750" height="758" key="GridCell.Tab.2.right" timestamp="1607957926425">
+    <state width="1750" height="317" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802209" />
+    <state width="1750" height="758" key="GridCell.Tab.2.left/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697692" />
+    <state width="1750" height="317" key="GridCell.Tab.2.right" timestamp="1608045802210">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="758" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607957926425" />
-    <state width="1750" height="230" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607957867102" />
+    <state width="1750" height="317" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608045802210" />
+    <state width="1750" height="758" key="GridCell.Tab.2.right/0.23.1792.1046@0.23.1792.1046" timestamp="1607959697693" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1607957239606">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1607957239606" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607784595595">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607957979329">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607784595595" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607957979329" />
     <state x="477" y="285" width="926" height="550" key="find.popup" timestamp="1607784316156">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="477" y="285" width="926" height="550" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1607784316156" />
-    <state x="273" y="264" key="new project wizard" timestamp="1607956826040">
+    <state x="273" y="264" key="new project wizard" timestamp="1607958452403">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607956826040" />
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1607958452403" />
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1607007982438">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
