@@ -7,19 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-provider-a" />
-        <module name="microservice-consumer-movie-feign" />
-        <module name="microservice-consumer-movie-ribbon-config-java" />
-        <module name="microservice-consumer-movie-feign-hystrix" />
-        <module name="microservice-consumer-movie-feign-hystrix-stream" />
-        <module name="microservice-hystrix-dashboard" />
-        <module name="microservice-consumer-movie-ribbon-config-properties" />
         <module name="EurekaService" />
-        <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-ribbon-config-properties" />
+        <module name="microservice-provider-a" />
         <module name="microservice-consumer-movie-feign-config-java" />
-        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-config-java" />
         <module name="microservice-consumer-movie-ribbon-hystrix-common" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-feign-hystrix-stream" />
+        <module name="microservice-gateway-zuul-fallback" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-hystrix-dashboard" />
         <module name="microservice-provider-b" />
+        <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-consumer-movie-feign-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +36,9 @@
       <module name="microservice-consumer-movie-ribbon-config-java" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-config-properties" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-hystrix-common" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-gateway-zuul-fallback" target="1.8" />
+      <module name="microservice-gateway-zuul-filter" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-provider-a" target="1.8" />
       <module name="microservice-provider-b" target="1.8" />
@@ -52,6 +58,9 @@
       <module name="microservice-consumer-movie-ribbon-config-java" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon-config-properties" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon-hystrix-common" options="-parameters" />
+      <module name="microservice-gateway-zuul" options="-parameters" />
+      <module name="microservice-gateway-zuul-fallback" options="-parameters" />
+      <module name="microservice-gateway-zuul-filter" options="-parameters" />
       <module name="microservice-hystrix-dashboard" options="-parameters" />
       <module name="microservice-provider-a" options="-parameters" />
       <module name="microservice-provider-b" options="-parameters" />
