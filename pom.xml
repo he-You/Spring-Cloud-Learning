@@ -4,12 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>ConsumerService</module>
-        <module>ProviderService</module>
+        <module>microservice-consumer-movie</module>
+        <module>microservice-provider-a</module>
         <module>EurekaService</module>
         <module>microservice-consumer-movie-ribbon</module>
         <module>microservice-provider-a</module>
-        <module>microservice-consumer-movie-feign-config-java</module>
         <module>microservice-consumer-movie-ribbon-config-properties</module>
         <module>microservice-consumer-movie-feign</module>
         <module>microservice-consumer-movie-ribbon-hystrix-common</module>
@@ -19,6 +18,9 @@
         <module>microservice-gateway-zuul</module>
         <module>microservice-gateway-zuul-fallback</module>
         <module>microservice-gateway-zuul-filter</module>
+        <module>microservice-config-server</module>
+        <module>microservice-config-client</module>
+        <module>microservice-provider-user-sleuth</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
